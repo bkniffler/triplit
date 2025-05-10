@@ -32,6 +32,7 @@
     "/dist"
   ],
   "scripts": {
+    "test": "node --experimental-strip-types --test \"test/**/*.spec.ts\"",
     "build": "tsc",
     "lint": "tsc --noEmit",
     "publish-pkg": "node ../../scripts/npm-check-version-and-publish.js"
@@ -46,6 +47,8 @@
     "react-native-url-polyfill": "^2.0.0"
   },
   "devDependencies": {
+    "@triplit/logger": "workspace:^",
+    "@types/node": "^20.11.18",
     "@types/react-native-get-random-values": "^1",
     "typescript": "^5.8.3"
   }

@@ -10722,7 +10722,9 @@ __metadata:
   dependencies:
     "@azure/core-asynciterator-polyfill": "npm:^1.0.2"
     "@react-native-anywhere/polyfill-base64": "npm:^0.0.1-alpha.0"
+    "@triplit/logger": "workspace:^"
     "@triplit/react": "workspace:^"
+    "@types/node": "npm:^20.11.18"
     "@types/react-native-get-random-values": "npm:^1"
     event-target-polyfill: "npm:^0.0.4"
     hasown: "npm:^2.0.2"
@@ -11619,6 +11621,15 @@ __metadata:
   version: 18.18.6
   resolution: "@types/node@npm:18.18.6"
   checksum: 10/ba8b71c724c4c9b1908faf09be1aa062790ef4194f956f6c7ae9791f8d2c1d123635695e41c3c8326223d2262bae2b3b5c8774c7a6c5885a98437b6fb04a2f0c
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.11.18":
+  version: 20.17.46
+  resolution: "@types/node@npm:20.17.46"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10/fdc500f78c8d7f1f6ec360acbe2b2d26aafeaf16dd3efaee28cbdbe2515b4e999eab6def82b3a2438a86775584ea89c9580eac25ddaddd0e0cfc81c45e78253a
   languageName: node
   linkType: hard
 
